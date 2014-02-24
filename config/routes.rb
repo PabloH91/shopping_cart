@@ -1,4 +1,14 @@
 ShoppingCart::Application.routes.draw do
+  
+  # get "shopping_cart/home"
+  # get "shopping_cart/help"
+  # get "shopping_cart/contact"
+  # get "shopping_cart/products_list"
+
+  root                    to: 'shopping_cart#home'
+  match '/contact',       to: 'shopping_cart#contact'
+  match '/products',      to: 'shopping_cart#products_list'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

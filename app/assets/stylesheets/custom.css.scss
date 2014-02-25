@@ -103,15 +103,17 @@ footer {
 
 .list {
 	float: left;
+	padding-left: 15px;
 	.category {
-		width: 75%;
+		width: 80%;
 		.products {
 			display: block;
-			margin-left: 30px;
+			margin-left: 5px;
 			padding-top: 15px;
 			padding-bottom: 15px;
 			.product {
-				width: 25%;
+				width: 150px;
+				height: 240px;
 				float: left;
 				padding-left: 15px;
 				padding-right: 15px;
@@ -122,12 +124,13 @@ footer {
 					border-style: solid;
 					border-width: 2px;
 					border-color: #09F;
-					box-sizing: border-box;
 				}
 				.product_image {
-					height: 150px;
+					height: 50px;
 				}
 				.product_name {
+					color: #000;
+					height: 45px;
 					padding-left: 5px;
 				}
 				.product_price {

@@ -139,8 +139,13 @@ footer {
 				}
 			}
 		}
+		a {
+			&:hover {
+				text-decoration: none;
+			}
+		}
 		h3 {
-			padding-bottom: 15px;
+			margin-bottom: 15px;
 		}
 	}
 }

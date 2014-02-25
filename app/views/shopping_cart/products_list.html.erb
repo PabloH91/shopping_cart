@@ -2,12 +2,26 @@
 
 <h1>Products</h1>
 
+<div class="categories_nav">
+	<a href="#" onclick="show_all(['category_rackets', 'category_balls', 'category_shirts', 'category_shoes', 'category_bottles'])" >Show All Products</a>
+	<a href="#" onclick="hide_all(['category_rackets', 'category_balls', 'category_shirts', 'category_shoes', 'category_bottles'])" >Hide All Products</a>
+</div>
+
 <div class="list">
 	<div class="category">
 		<%= render 'shopping_cart/tennis_rackets' %>
 	</div>
 	<div class="category" >
 		<%= render 'shopping_cart/tennis_balls' %>
+	</div>
+	<div class="category" >
+		<%= render 'shopping_cart/tennis_shirts' %>
+	</div>
+	<div class="category" >
+		<%= render 'shopping_cart/tennis_shoes' %>
+	</div>
+	<div class="category" >
+		<%= render 'shopping_cart/water_bottles' %>
 	</div>
 </div>
 <div class="clear"></div>

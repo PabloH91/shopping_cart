@@ -104,10 +104,10 @@ footer {
 .list {
 	float: left;
 	padding-left: 15px;
+	width: 80%;
 	.category {
-		width: 80%;
 		.products {
-			display: block;
+			display: none;
 			margin-left: 5px;
 			padding-top: 15px;
 			padding-bottom: 15px;
@@ -138,6 +138,9 @@ footer {
 					font-weight: bold;
 				}
 			}
+		}
+		h3 {
+			padding-bottom: 15px;
 		}
 	}
 }
